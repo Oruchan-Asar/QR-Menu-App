@@ -6,7 +6,9 @@ import Link from "next/link";
 export default function Header() {
   return (
     <header className={styles.header}>
-      <Image src={logo} alt="logo" />
+      <Link href="/">
+        <Image src={logo} alt="logo" />
+      </Link>
       <div className={styles.navLinks}>
         <Link href="/">Anasayfa</Link>
         <Link href="/menu">Menü</Link>

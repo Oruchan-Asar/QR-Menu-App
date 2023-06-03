@@ -3,6 +3,8 @@
   --main-color: #fff;
   --first-color: #ff008a;
   --secondary-color: #8ca2c0;
+
+  --max-width: 1216px;
 }
 
 body {
@@ -21,4 +23,10 @@ a {
 
 a:hover {
   color: var(--first-color);
+}
+
+.align-center {
+  display: flex;
+  justify-content: center;
+  margin: 52px 32px;
 }

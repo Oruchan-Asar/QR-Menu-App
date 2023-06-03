@@ -31,7 +31,14 @@
   justify-content: center;
   flex-wrap: wrap;
   overflow: hidden;
-  min-width: 100px;
   gap: 52px;
-  margin: 52px 0;
+}
+
+.homeCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: hidden;
+  gap: 24px;
+  max-width: var(--max-width);
 }

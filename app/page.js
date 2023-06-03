@@ -1,6 +1,7 @@
 import styles from "./page.module.css";
 import Link from "next/link";
 import Proof from "@/components/Proof/Proof";
+import HomeCard from "@/components/HomeCard/HomeCard";
 
 export default function Home() {
   return (
@@ -11,10 +12,25 @@ export default function Home() {
           Menu
         </Link>
       </div>
-      <div className={styles.proof}>
-        <Proof />
-        <Proof />
-        <Proof />
+      <div className="align-center">
+        <div className={styles.proof}>
+          <Proof />
+          <Proof />
+          <Proof />
+        </div>
+      </div>
+      <div className="align-center">
+        <div>
+          <h2>Lorem Ipsum</h2>
+          <div className={styles.homeCard}>
+            <HomeCard />
+            <HomeCard />
+            <HomeCard />
+            <HomeCard />
+            <HomeCard />
+            <HomeCard />
+          </div>
+        </div>
       </div>
     </main>
   );
