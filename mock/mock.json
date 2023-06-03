@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "category": "Drinks",
+    "name": "bla bla",
+    "image": {},
+    "price": 12
+  },
+  {
+    "id": 2,
+    "category": "Food",
+    "name": "bla bla",
+    "image": {},
+    "price": 12
+  }
+]

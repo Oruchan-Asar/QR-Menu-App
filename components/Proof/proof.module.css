@@ -1,0 +1,12 @@
+.proof {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--first-color);
+  padding: 24px;
+  transition: all 0.3s ease-out;
+  color: var(--main-color);
+}
+
+.proof:hover {
+  background-color: var(--first-color);
+}
