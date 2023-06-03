@@ -15,4 +15,6 @@
 
 .copyright {
   color: var(--secondary-color);
+  margin: 0 32px;
+  text-align: center;
 }
