@@ -28,10 +28,16 @@
 
 .proof {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   overflow: hidden;
+  max-width: var(--max-width);
+  width: 100%;
   gap: 52px;
+}
+
+.title {
+  color: var(--main-color);
 }
 
 .homeCard {
@@ -41,4 +47,20 @@
   overflow: hidden;
   gap: 24px;
   max-width: var(--max-width);
+}
+
+@media screen and (max-width: 775px) {
+  .homeCard {
+    justify-content: center;
+  }
+
+  .title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1225px) {
+  .proof {
+    justify-content: center;
+  }
 }

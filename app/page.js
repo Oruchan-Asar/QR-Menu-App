@@ -21,7 +21,7 @@ export default function Home() {
       </div>
       <div className="align-center">
         <div>
-          <h2>Lorem Ipsum</h2>
+          <h2 className={styles.title}>Lorem Ipsum</h2>
           <div className={styles.homeCard}>
             <HomeCard />
             <HomeCard />
