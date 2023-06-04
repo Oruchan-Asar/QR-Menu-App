@@ -11,3 +11,15 @@
 .proof:hover {
   background-color: var(--first-color);
 }
+
+.proof > p {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+@media screen and (max-width: 1240px) {
+  .proof {
+    align-items: center;
+    width: 235px;
+  }
+}

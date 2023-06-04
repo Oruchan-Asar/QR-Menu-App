@@ -6,15 +6,15 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-export default function HomeCard({ category }) {
+export default function HomeCard({ label }) {
   useEffect(() => {
     AOS.init();
   }, []);
   return (
     <div className={styles.homeCard} data-aos="fade-up">
-      <Image src={category.image} alt="home-card" width={300} height={300} />
+      <Image src={label.image} alt="home-card" width={275} height={275} />
       <div className={styles.info}>
-        <p>{category.categoryName}</p>
+        <p>{label.categoryName}</p>
       </div>
     </div>
   );

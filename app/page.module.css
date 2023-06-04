@@ -51,6 +51,11 @@
   max-width: var(--max-width);
 }
 
+.category {
+  display: flex;
+  flex-direction: column;
+}
+
 @media screen and (max-width: 775px) {
   .homeCard {
     justify-content: center;
@@ -63,6 +68,16 @@
 
 @media screen and (max-width: 1225px) {
   .proof {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .category {
+    align-items: center;
+  }
+
+  .homeCard {
     justify-content: center;
   }
 }

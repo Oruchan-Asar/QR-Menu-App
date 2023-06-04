@@ -2,7 +2,8 @@ import styles from "./page.module.css";
 import Link from "next/link";
 import Proof from "@/components/Proof/Proof";
 import HomeCard from "@/components/HomeCard/HomeCard";
-import categories from "@/mock/categories.js";
+import drinks from "@/mock/drinks.js";
+import foods from "@/mock/foods.js";
 import localFont from "next/font/local";
 
 const branch = localFont({ src: "./Branch.ttf" });
@@ -18,19 +19,29 @@ export default function Home() {
       </div>
       <div className="align-center">
         <div className={styles.proof}>
-          <Proof />
-          <Proof />
-          <Proof />
+          <Proof number={90} text={"Çeşit içecek"} />
+          <Proof number={12} text={"Çeşit tatlı"} />
+          <Proof number={12} text={"Çeşit aperatif ve kahvaltı"} />
         </div>
       </div>
       <div className="align-center">
-        <div>
+        <div className={styles.category}>
+          <h2 className={[`${styles.title} ${branch.className}`]}>Icecekler</h2>
+          <div className={styles.homeCard}>
+            {drinks.slice(0, 8).map((drink) => (
+              <HomeCard label={drink} key={drink.id} />
+            ))}
+          </div>
+        </div>
+      </div>
+      <div className="align-center">
+        <div className={styles.category}>
           <h2 className={[`${styles.title} ${branch.className}`]}>
-            Kategoriler
+            Yiyecekler
           </h2>
           <div className={styles.homeCard}>
-            {categories.slice(0, 6).map((category) => (
-              <HomeCard category={category} key={category.id} />
+            {foods.slice(0, 4).map((food) => (
+              <HomeCard label={food} key={food.id} />
             ))}
           </div>
         </div>

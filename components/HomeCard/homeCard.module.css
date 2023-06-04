@@ -8,3 +8,9 @@
 .price {
   color: var(--first-color);
 }
+
+@media screen and (max-width: 1240px) {
+  .info {
+    justify-content: center;
+  }
+}

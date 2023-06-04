@@ -10,7 +10,9 @@ export default function Footer() {
         <Link href="/about-us">Hakkımızda</Link>
       </div>
       <p className={styles.copyright}>
-        Be sure to take a look at our Terms of Use and Privacy Policy
+        Bu sayfa{" "}
+        <Link href="https://www.instagram.com/oruc.asar/">Oruçhan Asar</Link>{" "}
+        tarafından geliştirilmiştir.
       </p>
     </footer>
   );
