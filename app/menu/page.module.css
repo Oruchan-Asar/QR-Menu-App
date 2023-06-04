@@ -1,0 +1,29 @@
+.mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  background-image: url("../../public/placeholder-mid-img.png");
+  background-position: center;
+}
+
+.title {
+  color: var(--main-color);
+  font-size: 48px;
+  letter-spacing: 1px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menus {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  max-width: var(--max-width);
+}

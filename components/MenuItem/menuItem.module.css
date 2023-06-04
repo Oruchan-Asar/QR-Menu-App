@@ -1,0 +1,9 @@
+.menu_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--main-color);
+  min-width: 300px;
+  padding: 6px 8px;
+  border: 1px solid var(--first-color);
+}
