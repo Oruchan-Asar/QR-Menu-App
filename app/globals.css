@@ -11,6 +11,10 @@ body {
   background: var(--bg-color);
 }
 
+img {
+  object-fit: cover;
+}
+
 a {
   color: var(--main-color);
   text-decoration: none;

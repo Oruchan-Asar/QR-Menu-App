@@ -1,14 +1,20 @@
-import placeholder from "../../public/placeholder-card-img.png";
+"use client";
+
 import Image from "next/image";
 import styles from "./homeCard.module.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
-export default function HomeCard() {
+export default function HomeCard({ category }) {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <div className={styles.homeCard}>
-      <Image src={placeholder} alt="home-card" width={350} />
+    <div className={styles.homeCard} data-aos="fade-up">
+      <Image src={category.image} alt="home-card" width={300} height={300} />
       <div className={styles.info}>
-        <p>Lorem Ipsum</p>
-        <p className={styles.price}>12TL</p>
+        <p>{category.categoryName}</p>
       </div>
     </div>
   );
