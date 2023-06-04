@@ -1,0 +1,41 @@
+.mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  background-image: url("../../public/placeholder-mid-img.png");
+  background-position: center;
+}
+
+.social_medias {
+  display: flex;
+  justify-content: center;
+  padding: 6px 8px;
+  margin: 8px 0;
+  gap: 24px;
+  color: var(--main-color);
+}
+
+.social_media {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.social_media:hover {
+  color: var(--first-color);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  max-width: var(--max-width);
+  width: 100%;
+}
+
+@media screen and (max-width: 1240px) {
+  .section {
+    align-items: center;
+  }
+}

@@ -6,7 +6,11 @@ export default function About() {
       <div className={styles.info}>
         <div>
           <h3>Title</h3>
-          <p>description</p>
+          <p>
+            Kafemiz, en güzel lezzetleri sunmanın yanı sıra huzurlu bir
+            atmosferde keyifli zaman geçirmenizi sağlayan özel bir deneyim
+            sunuyor.
+          </p>
         </div>
         <div className={styles.section}>
           <h4>Email</h4>
