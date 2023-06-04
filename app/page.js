@@ -5,6 +5,8 @@ import HomeCard from "@/components/HomeCard/HomeCard";
 import drinks from "@/mock/drinks.js";
 import foods from "@/mock/foods.js";
 import localFont from "next/font/local";
+import Popular from "@/components/Popular/Popular";
+import About from "@/components/About/About";
 
 const branch = localFont({ src: "./Branch.ttf" });
 
@@ -25,7 +27,7 @@ export default function Home() {
         </div>
       </div>
       <div className="align-center">
-        <div className={styles.category}>
+        <div className={styles.section}>
           <h2 className={[`${styles.title} ${branch.className}`]}>Icecekler</h2>
           <div className={styles.homeCard}>
             {drinks.slice(0, 8).map((drink) => (
@@ -35,7 +37,7 @@ export default function Home() {
         </div>
       </div>
       <div className="align-center">
-        <div className={styles.category}>
+        <div className={styles.section}>
           <h2 className={[`${styles.title} ${branch.className}`]}>
             Yiyecekler
           </h2>
@@ -44,6 +46,27 @@ export default function Home() {
               <HomeCard label={food} key={food.id} />
             ))}
           </div>
+        </div>
+      </div>
+      <div className={styles.mid}>
+        <h2>Lorem Ipsum</h2>
+      </div>
+      <div className="align-center">
+        <div className={styles.section}>
+          <h2 className={[`${styles.title} ${branch.className}`]}>
+            En Cok Tercih Edilenler
+          </h2>
+          <div className={styles.popular}>
+            <Popular />
+            <Popular />
+            <Popular />
+            <Popular />
+          </div>
+        </div>
+      </div>
+      <div className="align-center">
+        <div className={styles.section}>
+          <About />
         </div>
       </div>
     </main>

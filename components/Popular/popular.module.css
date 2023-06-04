@@ -1,0 +1,15 @@
+.popular {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: var(--main-color);
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info > * {
+  margin: 0;
+}

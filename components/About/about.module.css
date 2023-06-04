@@ -1,0 +1,36 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  gap: 36px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--main-color);
+}
+
+.section > span {
+  color: var(--first-color);
+  font-size: 24px;
+  line-height: 52px;
+}
+
+.section > h4 {
+  margin: 0;
+}
+
+@media screen and (max-width: 1240px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .about > iframe {
+    width: 100vw;
+  }
+
+  .info {
+    margin: 0 56px;
+  }
+}

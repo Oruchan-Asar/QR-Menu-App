@@ -22,4 +22,8 @@
     align-items: center;
     width: 235px;
   }
+
+  .proof > p {
+    text-align: center;
+  }
 }
