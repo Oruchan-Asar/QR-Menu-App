@@ -17,3 +17,10 @@
 .price {
   color: var(--first-color);
 }
+
+@media screen and (max-width: 775px) {
+  .popular > img {
+    width: 275px;
+    height: 350px;
+  }
+}

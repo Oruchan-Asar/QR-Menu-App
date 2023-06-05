@@ -23,9 +23,9 @@ export default function Home() {
       </div>
       <div className="align-center">
         <div className={styles.proof}>
-          <Proof number={90} text={"Çeşit içecek"} />
-          <Proof number={12} text={"Çeşit tatlı"} />
-          <Proof number={12} text={"Çeşit aperatif ve kahvaltı"} />
+          <Proof number={117} text={"Çeşit içecek"} />
+          <Proof number={13} text={"Çeşit tatlı"} />
+          <Proof number={6} text={"Çeşit aperatif"} />
         </div>
       </div>
       <div className="align-center">
