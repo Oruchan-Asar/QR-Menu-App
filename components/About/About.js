@@ -5,7 +5,7 @@ export default function About() {
     <div className={styles.about}>
       <div className={styles.info}>
         <div>
-          <h3>Title</h3>
+          <h3>Hakkımızda</h3>
           <p>
             Kafemiz, en güzel lezzetleri sunmanın yanı sıra huzurlu bir
             atmosferde keyifli zaman geçirmenizi sağlayan özel bir deneyim
@@ -14,15 +14,18 @@ export default function About() {
         </div>
         <div className={styles.section}>
           <h4>Email</h4>
-          <span>email@email</span>
+          <span>coffedream60@gmail.com</span>
         </div>
         <div className={styles.section}>
           <h4>Phone</h4>
-          <span>+23432423423</span>
+          <span>+90 (552) 085 3880</span>
         </div>
         <div className={styles.section}>
           <h4>Adres</h4>
-          <span>62 West 55th Street, Suite 302 New York, NY, 10230</span>
+          <span>
+            Cumhuriyet Mahallesi, Cumhuriyet Caddesi, Sadık Apartmanı, No: 144,
+            Zemin: 1, 60302 Turhal/Tokat
+          </span>
         </div>
       </div>
       <iframe
