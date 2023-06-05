@@ -1,3 +1,9 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .mid {
   display: flex;
   justify-content: center;
@@ -8,7 +14,44 @@
   background-position: center;
 }
 
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: var(--max-width);
+  gap: 12px;
+  color: var(--main-color);
+  padding: 48px 32px;
+}
+
+.button {
+  border: 1px solid var(--first-color);
+  background-color: transparent;
+  color: var(--main-color);
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.button:hover {
+  background-color: var(--first-color);
+}
+
+.active {
+  background-color: var(--first-color);
+}
+
+.cancel {
+  border: 1px solid var(--first-color);
+  background-color: var(--first-color);
+  color: var(--main-color);
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
 .title {
+  text-align: center;
   color: var(--main-color);
   font-size: 48px;
   letter-spacing: 1px;
@@ -25,5 +68,6 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 24px;
+  color: var(--main-color);
   max-width: var(--max-width);
 }
