@@ -7,8 +7,10 @@ import foods from "@/mock/foods.js";
 import localFont from "next/font/local";
 import Popular from "@/components/Popular/Popular";
 import About from "@/components/About/About";
+import popular from "@/mock/popular.js";
 
 const branch = localFont({ src: "./Branch.ttf" });
+const raleway = localFont({ src: "./Raleway.ttf" });
 
 export default function Home() {
   return (
@@ -28,7 +30,9 @@ export default function Home() {
       </div>
       <div className="align-center">
         <div className={styles.section}>
-          <h2 className={[`${styles.title} ${branch.className}`]}>Icecekler</h2>
+          <h2 className={[`${styles.title} ${raleway.className}`]}>
+            İçecekler
+          </h2>
           <div className={styles.homeCard}>
             {drinks.slice(0, 8).map((drink) => (
               <HomeCard label={drink} key={drink.id} />
@@ -38,7 +42,7 @@ export default function Home() {
       </div>
       <div className="align-center">
         <div className={styles.section}>
-          <h2 className={[`${styles.title} ${branch.className}`]}>
+          <h2 className={[`${styles.title} ${raleway.className}`]}>
             Yiyecekler
           </h2>
           <div className={styles.homeCard}>
@@ -53,14 +57,18 @@ export default function Home() {
       </div>
       <div className="align-center">
         <div className={styles.section}>
-          <h2 className={[`${styles.title} ${branch.className}`]}>
-            En Cok Tercih Edilenler
+          <h2 className={[`${styles.title} ${raleway.className}`]}>
+            Dream Specials
           </h2>
           <div className={styles.popular}>
-            <Popular />
-            <Popular />
-            <Popular />
-            <Popular />
+            {popular.map((product) => (
+              <Popular
+                name={product.name}
+                price={product.price}
+                image={product.image}
+                key={product.id}
+              />
+            ))}
           </div>
         </div>
       </div>

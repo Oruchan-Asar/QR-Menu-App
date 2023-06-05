@@ -39,6 +39,7 @@
 .title {
   color: var(--main-color);
   font-size: 48px;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 
@@ -72,6 +73,7 @@
   justify-content: space-between;
   overflow: hidden;
   flex-wrap: wrap;
+  margin-bottom: 32px;
   gap: 24px;
   width: 100vw;
   max-width: var(--max-width);

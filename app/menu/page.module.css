@@ -52,6 +52,7 @@
 
 .title {
   text-align: center;
+  font-weight: 400;
   color: var(--main-color);
   font-size: 48px;
   letter-spacing: 1px;

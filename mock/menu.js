@@ -102,7 +102,7 @@ const menu = [
   },
   {
     id: 2,
-    categoryName: "Ice Espresso",
+    categoryName: "Soğuk Espresso",
     products: [
       {
         id: 1,
@@ -178,7 +178,7 @@ const menu = [
   },
   {
     id: 3,
-    categoryName: "Hot Drinks",
+    categoryName: "Sıcak İçecekler",
     products: [
       {
         id: 1,
@@ -234,7 +234,7 @@ const menu = [
   },
   {
     id: 4,
-    categoryName: "Types of Coffee",
+    categoryName: "Kahve Çeşitleri",
     products: [
       {
         id: 1,
@@ -270,7 +270,7 @@ const menu = [
   },
   {
     id: 5,
-    categoryName: "Types of Tea",
+    categoryName: "Çay Çeşitleri",
     products: [
       {
         id: 1,
@@ -336,7 +336,7 @@ const menu = [
   },
   {
     id: 6,
-    categoryName: "Cocktails",
+    categoryName: "Kokteyller",
     products: [
       {
         id: 1,
@@ -392,7 +392,7 @@ const menu = [
   },
   {
     id: 7,
-    categoryName: "Frappes",
+    categoryName: "Frappe Çeşitleri",
     products: [
       {
         id: 1,
@@ -438,7 +438,7 @@ const menu = [
   },
   {
     id: 8,
-    categoryName: "Frozen",
+    categoryName: "Frozen Çeşitleri",
     products: [
       {
         id: 1,
@@ -489,7 +489,7 @@ const menu = [
   },
   {
     id: 9,
-    categoryName: "Milkshakes",
+    categoryName: "Milkshake Çeşitleri",
     products: [
       {
         id: 1,
@@ -530,7 +530,7 @@ const menu = [
   },
   {
     id: 10,
-    categoryName: "Types of Lemonade",
+    categoryName: "Limonata Çeşitleri",
     products: [
       {
         id: 1,
@@ -561,7 +561,7 @@ const menu = [
   },
   {
     id: 11,
-    categoryName: "Soft Drinks",
+    categoryName: "Meşrubatlar",
     products: [
       {
         id: 1,
@@ -617,7 +617,7 @@ const menu = [
   },
   {
     id: 12,
-    categoryName: "Desserts",
+    categoryName: "Tatlılar",
     products: [
       {
         id: 1,
@@ -688,7 +688,7 @@ const menu = [
   },
   {
     id: 13,
-    categoryName: "Snack",
+    categoryName: "Atıştırmalıklar",
     products: [
       {
         id: 1,
@@ -724,7 +724,7 @@ const menu = [
   },
   {
     id: 14,
-    categoryName: "Breakfast",
+    categoryName: "Kahvaltı",
     products: [],
   },
 ];

@@ -6,7 +6,7 @@ import localFont from "next/font/local";
 import menu from "@/mock/menu.js";
 import { useState } from "react";
 
-const branch = localFont({ src: "../Branch.ttf" });
+const raleway = localFont({ src: "../Raleway.ttf" });
 
 export default function Menu() {
   const [filter, setFilter] = useState(null);
@@ -44,7 +44,7 @@ export default function Menu() {
                 .filter((item) => item.id === filter)
                 .map((item) => (
                   <>
-                    <h2 className={[`${styles.title} ${branch.className}`]}>
+                    <h2 className={[`${styles.title} ${raleway.className}`]}>
                       {item.categoryName}
                     </h2>
                     <ul className={styles.menus}>
@@ -58,7 +58,7 @@ export default function Menu() {
                 ))
             : menu.map((item) => (
                 <>
-                  <h2 className={[`${styles.title} ${branch.className}`]}>
+                  <h2 className={[`${styles.title} ${raleway.className}`]}>
                     {item.categoryName}
                   </h2>
                   <ul className={styles.menus}>

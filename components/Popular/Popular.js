@@ -1,22 +1,21 @@
 "use client";
 
-import popular from "@/public/placeholder-popular.png";
 import Image from "next/image";
 import styles from "./popular.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-export default function Popular() {
+export default function Popular({ name, price, image }) {
   useEffect(() => {
     AOS.init();
   }, []);
   return (
     <div className={styles.popular} data-aos="fade-up">
-      <Image src={popular} alt="popular" width={275} height={200} />
+      <Image src={image} alt="popular" width={200} height={250} />
       <div className={styles.info}>
-        <p>Title</p>
-        <p>12TL</p>
+        <p>{name}</p>
+        <p className={styles.price}>{price}TL</p>
       </div>
     </div>
   );
