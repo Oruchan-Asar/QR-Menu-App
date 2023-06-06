@@ -5,6 +5,8 @@ import styles from "./page.module.css";
 import localFont from "next/font/local";
 import menu from "@/mock/menu.js";
 import { useState } from "react";
+import Image from "next/image";
+import dis_mekan from "@/public/place/dis-mekan.png";
 
 const raleway = localFont({ src: "../Raleway.ttf" });
 
@@ -13,8 +15,11 @@ export default function Menu() {
 
   return (
     <div className={styles.menu}>
-      <div className={styles.mid}>
-        <h2>Menu</h2>
+      <div className={styles.banner}>
+        <div className={styles.absolute}>
+          <h1 className={styles.menuTitle}>Menu</h1>
+        </div>
+        <Image className={styles.image} src={dis_mekan} alt="dis_mekan" />
       </div>
       <div className={styles.filter}>
         {menu.map((item) => (

@@ -8,24 +8,30 @@ import localFont from "next/font/local";
 import Popular from "@/components/Popular/Popular";
 import About from "@/components/About/About";
 import popular from "@/mock/popular.js";
+import Image from "next/image";
+import dis_mekan from "@/public/place/dis-mekan.png";
+import SwiperImage from "@/components/SwiperImage/SwiperImage";
+import places from "@/mock/places.js";
 
-const branch = localFont({ src: "./Branch.ttf" });
 const raleway = localFont({ src: "./Raleway.ttf" });
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.banner}>
-        <h1>Aradığınız kahve lezzetinin adresi</h1>
-        <Link href="/menu" className={styles.menuLink}>
-          Menu
-        </Link>
+        <div className={styles.absolute}>
+          <h1 className={styles.title}>Aradığınız kahve lezzetinin adresi</h1>
+          <Link href="/menu" className={styles.menuLink}>
+            Menu
+          </Link>
+        </div>
+        <Image className={styles.image} src={dis_mekan} alt="dis_mekan" />
       </div>
       <div className="align-center">
         <div className={styles.proof}>
           <Proof number={117} text={"Çeşit içecek"} />
           <Proof number={13} text={"Çeşit tatlı"} />
-          <Proof number={6} text={"Çeşit aperatif"} />
+          <Proof number={6} text={"Çeşit aperitif"} />
         </div>
       </div>
       <div className="align-center">
@@ -53,7 +59,7 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.mid}>
-        <h2>Lorem Ipsum</h2>
+        <SwiperImage images={places} />
       </div>
       <div className="align-center">
         <div className={styles.section}>

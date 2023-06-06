@@ -2,16 +2,45 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
-.mid {
+.banner {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 200px;
-  background-image: url("../../public/placeholder-mid-img.png");
-  background-position: center;
+  max-height: 400px;
+  overflow: hidden;
+  text-align: center;
+  color: var(--main-color);
+}
+
+.absolute {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--main-color);
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menuTitle {
+  color: var(--main-color);
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.image {
+  height: auto;
+  width: 100%;
+  object-fit: contain;
 }
 
 .filter {
