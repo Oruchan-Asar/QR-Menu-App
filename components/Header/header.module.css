@@ -10,5 +10,9 @@
 
 .navLinks {
   display: flex;
-  gap: 16px;
+  gap: 24px;
+}
+
+.navLinks > * {
+  font-size: 18px;
 }
