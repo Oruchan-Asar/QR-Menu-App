@@ -16,6 +16,7 @@ export default function Menu() {
 
   useEffect(() => {
     if (filter) {
+      console.log("filter", filter);
       const foundMenu = menu.find((item) => item.id === filter);
       setFilteredMenu(foundMenu ? [foundMenu] : menu);
     } else {
@@ -52,7 +53,7 @@ export default function Menu() {
       <div className="align-center">
         <div className={styles.container}>
           {filteredMenu.map((item, index) => (
-            <div key={index}>
+            <div id={item.id} key={index}>
               <h2 className={[`${styles.title} ${raleway.className}`]}>
                 {item.categoryName}
               </h2>

@@ -1,6 +1,5 @@
 import styles from "./page.module.css";
 import Link from "next/link";
-import Proof from "@/components/Proof/Proof";
 import HomeCard from "@/components/HomeCard/HomeCard";
 import drinks from "@/mock/drinks.js";
 import foods from "@/mock/foods.js";
@@ -12,6 +11,7 @@ import Image from "next/image";
 import dis_mekan from "@/public/place/dis-mekan.png";
 import SwiperImage from "@/components/SwiperImage/SwiperImage";
 import places from "@/mock/places.js";
+import dreamSpecials from "@/mock/dreamSpecials";
 
 const raleway = localFont({ src: "./Raleway.ttf" });
 
@@ -28,12 +28,9 @@ export default function Home() {
         <Image className={styles.image} src={dis_mekan} alt="dis_mekan" />
       </div>
       <div className="align-center">
-        <div className={styles.proof}>
-          <Proof number={117} text={"Çeşit içecek"} />
-          <Proof number={13} text={"Çeşit tatlı"} />
-          <Proof number={6} text={"Çeşit aperitif"} />
-        </div>
+        <SwiperImage images={dreamSpecials} perView={3} setWindow={true} />
       </div>
+
       <div className="align-center">
         <div className={styles.section}>
           <h2 className={[`${styles.title} ${raleway.className}`]}>
@@ -41,7 +38,9 @@ export default function Home() {
           </h2>
           <div className={styles.homeCard}>
             {drinks.slice(0, 8).map((drink) => (
-              <HomeCard label={drink} key={drink.id} />
+              <Link href={`menu#${drink.id}`} key={drink.id}>
+                <HomeCard label={drink} />
+              </Link>
             ))}
           </div>
         </div>
@@ -53,7 +52,9 @@ export default function Home() {
           </h2>
           <div className={styles.homeCard}>
             {foods.slice(0, 4).map((food) => (
-              <HomeCard label={food} key={food.id} />
+              <Link href={`menu#${food.id}`} key={food.id}>
+                <HomeCard label={food} />
+              </Link>
             ))}
           </div>
         </div>

@@ -20,7 +20,7 @@ const menu = [
       },
       {
         id: 4,
-        name: "Coffe Americano",
+        name: "Coffee Americano",
         price: 38,
       },
       {
@@ -70,7 +70,7 @@ const menu = [
       },
       {
         id: 14,
-        name: "Coffe Mocha",
+        name: "Coffee Mocha",
         price: 45,
       },
       {
@@ -95,7 +95,7 @@ const menu = [
       },
       {
         id: 19,
-        name: "Coffe Bisketti",
+        name: "Coffee Bisketti",
         price: 45,
       },
     ],
@@ -111,7 +111,7 @@ const menu = [
       },
       {
         id: 2,
-        name: "Ice Coffe Mocha",
+        name: "Ice Coffee Mocha",
         price: 48,
       },
       {
@@ -166,7 +166,7 @@ const menu = [
       },
       {
         id: 13,
-        name: "Ice Sneakers Coffe",
+        name: "Ice Sneakers Coffee",
         price: 50,
       },
       {
@@ -523,7 +523,7 @@ const menu = [
       },
       {
         id: 7,
-        name: "Bubble Tea",
+        name: "Bubble Tea Milkshake",
         price: 45,
       },
     ],
@@ -677,7 +677,7 @@ const menu = [
       {
         id: 12,
         name: "Lotus Pasta",
-        price: 50,
+        price: 55,
       },
       {
         id: 13,
@@ -724,8 +724,39 @@ const menu = [
   },
   {
     id: 14,
-    categoryName: "Kahvaltı",
-    products: [],
+    categoryName: "Dondurma Çeşitleri",
+    products: [
+      {
+        id: 1,
+        name: "Çikolatalı Dondurma",
+        price: 10,
+      },
+      {
+        id: 2,
+        name: "Vanilyalı Dondurma",
+        price: 10,
+      },
+      {
+        id: 3,
+        name: "Limonlu Dondurma",
+        price: 10,
+      },
+      {
+        id: 4,
+        name: "Vişneli Dondurma",
+        price: 10,
+      },
+      {
+        id: 5,
+        name: "Karamelli Dondurma",
+        price: 10,
+      },
+      {
+        id: 6,
+        name: "Bal Bademli Dondurma",
+        price: 10,
+      },
+    ],
   },
 ];
 
