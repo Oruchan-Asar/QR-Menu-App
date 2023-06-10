@@ -26,7 +26,7 @@ export default function SwiperImage({ images, setWindow = false }) {
         ? setslidesPer(1)
         : setslidesPer(4);
     }
-  }, [width]);
+  }, [setWindow, width]);
 
   return (
     <div className={styles.swiper_page}>

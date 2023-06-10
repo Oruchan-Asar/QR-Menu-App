@@ -5,7 +5,7 @@ import magnolya from "@/public/categories/foods/magnolya.jpg";
 
 const foods = [
   {
-    id: 12,
+    id: 1,
     categoryName: "Magnolyalar",
     image: magnolya,
   },
@@ -20,7 +20,7 @@ const foods = [
     image: snack,
   },
   {
-    id: 13,
+    id: 2,
     categoryName: "Kahvaltılıklar",
     image: breakfast,
   },
