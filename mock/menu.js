@@ -239,7 +239,7 @@ const menu = [
       {
         id: 1,
         name: "Türk Kahvesi",
-        price: 30,
+        price: 33,
       },
       {
         id: 2,
@@ -275,12 +275,12 @@ const menu = [
       {
         id: 1,
         name: "Çay",
-        price: 8,
+        price: 10,
       },
       {
         id: 2,
         name: "Fincan Çay",
-        price: 15,
+        price: 18,
       },
       {
         id: 3,
@@ -443,47 +443,47 @@ const menu = [
       {
         id: 1,
         name: "Çilek Frozen",
-        price: 45,
+        price: 50,
       },
       {
         id: 2,
         name: "Karpuz Frozen",
-        price: 45,
+        price: 50,
       },
       {
         id: 3,
         name: "Karadut Frozen",
-        price: 45,
+        price: 50,
       },
       {
         id: 4,
         name: "Böğürtlen Frozen",
-        price: 45,
+        price: 50,
       },
       {
         id: 5,
         name: "Muz Frozen",
-        price: 45,
+        price: 50,
       },
       {
         id: 6,
         name: "Kavun Frozen",
-        price: 45,
+        price: 50,
       },
       {
         id: 7,
         name: "Şeftali Frozen",
-        price: 45,
+        price: 50,
       },
       {
         id: 8,
         name: "Çarkıfelek Frozen",
-        price: 45,
+        price: 50,
       },
       {
         id: 9,
         name: "Mango Frozen",
-        price: 45,
+        price: 50,
       },
     ],
   },
@@ -524,7 +524,7 @@ const menu = [
       {
         id: 7,
         name: "Bubble Tea Milkshake",
-        price: 45,
+        price: 55,
       },
     ],
   },
@@ -566,12 +566,12 @@ const menu = [
       {
         id: 1,
         name: "Su",
-        price: 8,
+        price: 10,
       },
       {
         id: 2,
         name: "Ayran",
-        price: 22,
+        price: 24,
       },
       {
         id: 3,
@@ -586,27 +586,27 @@ const menu = [
       {
         id: 5,
         name: "Churchill",
-        price: 30,
+        price: 35,
       },
       {
         id: 6,
         name: "Kola",
-        price: 25,
+        price: 30,
       },
       {
         id: 7,
         name: "Fanta",
-        price: 25,
+        price: 30,
       },
       {
         id: 8,
         name: "Sprite",
-        price: 25,
+        price: 30,
       },
       {
         id: 9,
         name: "Fuse Tea",
-        price: 25,
+        price: 30,
       },
       {
         id: 10,
