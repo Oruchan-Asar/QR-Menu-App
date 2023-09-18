@@ -21,22 +21,22 @@ const menu = [
       {
         id: 4,
         name: "Coffee Americano",
-        price: 42,
+        price: 45,
       },
       {
         id: 5,
         name: "Latte",
-        price: 45,
+        price: 50,
       },
       {
         id: 6,
         name: "Caramel Latte",
-        price: 50,
+        price: 52,
       },
       {
         id: 7,
         name: "Latte Macchiato",
-        price: 50,
+        price: 52,
       },
       {
         id: 8,
@@ -56,7 +56,7 @@ const menu = [
       {
         id: 11,
         name: "Caramel Macchiato",
-        price: 50,
+        price: 52,
       },
       {
         id: 12,
@@ -71,17 +71,17 @@ const menu = [
       {
         id: 14,
         name: "Coffee Mocha",
-        price: 50,
+        price: 52,
       },
       {
         id: 15,
         name: "White Chocolate Mocha",
-        price: 50,
+        price: 52,
       },
       {
         id: 16,
         name: "Filtre Kahve",
-        price: 45,
+        price: 48,
       },
       {
         id: 17,
@@ -147,7 +147,7 @@ const menu = [
       {
         id: 9,
         name: "Ice Filtre Coffee ",
-        price: 48,
+        price: 50,
       },
       {
         id: 10,
@@ -183,37 +183,37 @@ const menu = [
       {
         id: 1,
         name: "Sıcak Çikolata",
-        price: 40,
+        price: 45,
       },
       {
         id: 2,
         name: "Beyaz Sıcak Çikolata",
-        price: 40,
+        price: 45,
       },
       {
         id: 3,
         name: "Aromalı Sıcak Çikolata",
-        price: 42,
+        price: 48,
       },
       {
         id: 4,
         name: "Salep",
-        price: 40,
+        price: 45,
       },
       {
         id: 5,
         name: "Çikolatalı Salep",
-        price: 40,
+        price: 45,
       },
       {
         id: 6,
         name: "Sütlü Gold",
-        price: 40,
+        price: 45,
       },
       {
         id: 7,
         name: "Gold Kahve",
-        price: 36,
+        price: 40,
       },
       {
         id: 8,
@@ -228,7 +228,7 @@ const menu = [
       {
         id: 10,
         name: "Ballı Süt",
-        price: 40,
+        price: 45,
       },
     ],
   },
@@ -239,32 +239,32 @@ const menu = [
       {
         id: 1,
         name: "Türk Kahvesi",
-        price: 33,
+        price: 35,
       },
       {
         id: 2,
         name: "Sütlü Türk Kahvesi",
-        price: 35,
+        price: 40,
       },
       {
         id: 3,
         name: "Dibek Kahvesi",
-        price: 35,
+        price: 40,
       },
       {
         id: 4,
         name: "Damla Sakızl Türk Kahvesi",
-        price: 35,
+        price: 40,
       },
       {
         id: 5,
         name: "Fındık Aromalı Türk Kahvesi",
-        price: 35,
+        price: 40,
       },
       {
         id: 6,
         name: "Menengiç Kahvesi",
-        price: 35,
+        price: 40,
       },
     ],
   },
@@ -285,52 +285,52 @@ const menu = [
       {
         id: 3,
         name: "Papatya Çayı",
-        price: 30,
+        price: 33,
       },
       {
         id: 4,
         name: "Kış Çayı",
-        price: 30,
+        price: 33,
       },
       {
         id: 5,
         name: "Yeşil Çay",
-        price: 30,
+        price: 33,
       },
       {
         id: 6,
         name: "Ihlamur",
-        price: 30,
+        price: 33,
       },
       {
         id: 7,
         name: "Nane Limon",
-        price: 30,
+        price: 33,
       },
       {
         id: 8,
         name: "Kuşburnu Çayı",
-        price: 30,
+        price: 33,
       },
       {
         id: 9,
         name: "Karadut Çayı",
-        price: 30,
+        price: 33,
       },
       {
         id: 10,
         name: "Portakal Çayı",
-        price: 30,
+        price: 33,
       },
       {
         id: 11,
         name: "Kivi Çayı",
-        price: 30,
+        price: 33,
       },
       {
         id: 12,
         name: "Elma Çayı",
-        price: 30,
+        price: 33,
       },
     ],
   },
@@ -632,22 +632,22 @@ const menu = [
       {
         id: 3,
         name: "Suffle",
-        price: 65,
+        price: 70,
       },
       {
         id: 4,
         name: "Triliçe",
-        price: 60,
+        price: 70,
       },
       {
         id: 5,
         name: "Magnolya",
-        price: 60,
+        price: 70,
       },
       {
         id: 6,
         name: "Çikolatalı Pasta",
-        price: 60,
+        price: 70,
       },
       {
         id: 7,
@@ -657,32 +657,32 @@ const menu = [
       {
         id: 8,
         name: "Limon Cheesecake",
-        price: 60,
+        price: 70,
       },
       {
         id: 9,
         name: "San Sebastian Cheesecake",
-        price: 70,
+        price: 75,
       },
       {
         id: 10,
         name: "Tiramisu",
-        price: 60,
+        price: 70,
       },
       {
         id: 11,
         name: "Fıstık Rüyası",
-        price: 60,
+        price: 70,
       },
       {
         id: 12,
         name: "Lotus Pasta",
-        price: 60,
+        price: 70,
       },
       {
         id: 13,
         name: "Waffle",
-        price: 65,
+        price: 70,
       },
     ],
   },
@@ -693,12 +693,12 @@ const menu = [
       {
         id: 1,
         name: "Kaşarlı Tost",
-        price: 75,
+        price: 80,
       },
       {
         id: 2,
         name: "Sucuklu Tost",
-        price: 75,
+        price: 80,
       },
       {
         id: 3,
@@ -708,7 +708,7 @@ const menu = [
       {
         id: 4,
         name: "Hamburger",
-        price: 100,
+        price: 120,
       },
       {
         id: 5,
@@ -718,7 +718,7 @@ const menu = [
       {
         id: 6,
         name: "Atıştırma Tabağı",
-        price: 85,
+        price: 100,
       },
     ],
   },
