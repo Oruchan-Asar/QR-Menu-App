@@ -576,12 +576,12 @@ const menu = [
       {
         id: 3,
         name: "Soda",
-        price: 18,
+        price: 22,
       },
       {
         id: 4,
         name: "Meyveli Soda",
-        price: 22,
+        price: 25,
       },
       {
         id: 5,
