@@ -6,7 +6,7 @@ const menu = [
       {
         id: 1,
         name: "Espresso",
-        price: 33,
+        price: 35,
       },
       {
         id: 2,
