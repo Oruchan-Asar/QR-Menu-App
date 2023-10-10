@@ -627,7 +627,7 @@ const menu = [
       {
         id: 2,
         name: "Ekler",
-        price: 40,
+        price: 50,
       },
       {
         id: 3,
