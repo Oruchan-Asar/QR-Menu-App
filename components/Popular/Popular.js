@@ -15,7 +15,7 @@ export default function Popular({ name, price, image }) {
       <Image src={image} alt="popular" width={200} height={250} />
       <div className={styles.info}>
         <p>{name}</p>
-        <p className={styles.price}>{price}TL</p>
+        <p className={styles.price}>{price}</p>
       </div>
     </div>
   );
