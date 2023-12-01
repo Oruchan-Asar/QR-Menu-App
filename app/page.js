@@ -71,7 +71,6 @@ export default function Home() {
             {popular.map((product) => (
               <Popular
                 name={product.name}
-                price={product.price}
                 image={product.image}
                 key={product.id}
               />
