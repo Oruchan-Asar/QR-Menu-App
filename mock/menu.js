@@ -275,12 +275,12 @@ const menu = [
       {
         id: 1,
         name: "Çay",
-        price: 12,
+        price: 15,
       },
       {
         id: 2,
         name: "Fincan Çay",
-        price: 25,
+        price: 28,
       },
       {
         id: 3,
@@ -632,42 +632,42 @@ const menu = [
       {
         id: 3,
         name: "Suffle",
-        price: 80,
+        price: 85,
       },
       {
         id: 4,
         name: "Triliçe",
-        price: 80,
+        price: 85,
       },
       {
         id: 5,
         name: "Magnolya",
-        price: 85,
+        price: 90,
       },
       {
         id: 6,
         name: "Çikolatalı Pasta",
-        price: 80,
+        price: 85,
       },
       {
         id: 7,
         name: "Frambuaz Cheesecake",
-        price: 80,
+        price: 85,
       },
       {
         id: 8,
         name: "Limon Cheesecake",
-        price: 80,
+        price: 85,
       },
       {
         id: 9,
         name: "San Sebastian Cheesecake",
-        price: 85,
+        price: 90,
       },
       {
         id: 10,
         name: "Tiramisu",
-        price: 80,
+        price: 85,
       },
       {
         id: 11,
@@ -677,12 +677,12 @@ const menu = [
       {
         id: 12,
         name: "Lotus Pasta",
-        price: 80,
+        price: 85,
       },
       {
         id: 13,
         name: "Waffle",
-        price: 95,
+        price: 100,
       },
     ],
   },
@@ -693,32 +693,32 @@ const menu = [
       {
         id: 1,
         name: "Kaşarlı Tost",
-        price: 85,
+        price: 95,
       },
       {
         id: 2,
         name: "Sucuklu Tost",
-        price: 85,
+        price: 95,
       },
       {
         id: 3,
         name: "Karışık Tost",
-        price: 90,
+        price: 100,
       },
       {
         id: 4,
         name: "Hamburger",
-        price: 135,
+        price: 150,
       },
       {
         id: 5,
         name: "Patates Kızartması",
-        price: 85,
+        price: 95,
       },
       {
         id: 6,
         name: "Atıştırma Tabağı",
-        price: 100,
+        price: 110,
       },
     ],
   },
