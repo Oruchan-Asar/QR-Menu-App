@@ -622,7 +622,7 @@ const menu = [
       {
         id: 1,
         name: "Donut",
-        price: -,
+        price: 0,
       },
       {
         id: 2,
