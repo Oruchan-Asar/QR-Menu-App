@@ -1,5 +1,0 @@
-[redirects]
-  from = "https://coffeedream.netlify.app/*"
-  to = "https://www.coffeedream.com.tr/:splat"
-  status = 301
-  force = true
