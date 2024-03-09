@@ -1,0 +1,5 @@
+[[redirects]]
+    from = "/*"
+    to = "https://coffeedream.com.tr"
+    status = 301
+    force = true
