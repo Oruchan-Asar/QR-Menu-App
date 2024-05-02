@@ -4,8 +4,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import Image from "next/image";
-import { Autoplay } from "swiper";
 import styles from "./swiperImage.module.css";
+import { Autoplay } from "swiper/modules";
 import { useEffect, useState } from "react";
 
 export default function SwiperImage({ images, setWindow = false }) {
