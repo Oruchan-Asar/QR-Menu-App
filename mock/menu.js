@@ -6,42 +6,42 @@ const menu = [
       {
         id: 1,
         name: "Espresso",
-        price: 70,
+        price: 75,
       },
       {
         id: 2,
         name: "Double Espresso",
-        price: 75,
+        price: 80,
       },
       {
         id: 3,
         name: "Espresso Macchiato",
-        price: 78,
+        price: 80,
       },
       {
         id: 4,
         name: "Coffee Americano",
-        price: 80,
+        price: 85,
       },
       {
         id: 5,
         name: "Latte",
-        price: 80,
+        price: 85,
       },
       {
         id: 6,
         name: "Caramel Latte",
-        price: 85,
+        price: 90,
       },
       {
         id: 7,
         name: "Latte Macchiato",
-        price: 80,
+        price: 85,
       },
       {
         id: 8,
         name: "Flat White",
-        price: 85,
+        price: 90,
       },
       {
         id: 9,
@@ -56,12 +56,12 @@ const menu = [
       {
         id: 11,
         name: "Caramel Macchiato",
-        price: 85,
+        price: 90,
       },
       {
         id: 12,
         name: "Cappuccino",
-        price: 80,
+        price: 85,
       },
       {
         id: 13,
@@ -71,12 +71,12 @@ const menu = [
       {
         id: 14,
         name: "Coffee Mocha",
-        price: 85,
+        price: 90,
       },
       {
         id: 15,
         name: "White Chocolate Mocha",
-        price: 85,
+        price: 90,
       },
       {
         id: 16,
@@ -107,57 +107,57 @@ const menu = [
       {
         id: 1,
         name: "Ice Latte",
-        price: 85,
+        price: 90,
       },
       {
         id: 2,
         name: "Ice Coffee Mocha",
-        price: 90,
+        price: 95,
       },
       {
         id: 3,
         name: "Ice White Chocolate Mocha",
-        price: 90,
+        price: 95,
       },
       {
         id: 4,
         name: "Ice Caramel Macchiato",
-        price: 90,
+        price: 95,
       },
       {
         id: 5,
         name: "Ice Americano",
-        price: 85,
+        price: 90,
       },
       {
         id: 6,
         name: "Ice Cold Brew",
-        price: 85,
+        price: 90,
       },
       {
         id: 7,
         name: "Ice Cold Brew Latte",
-        price: 90,
+        price: 95,
       },
       {
         id: 8,
         name: "Ice Espresso Frappucino",
-        price: 85,
+        price: 90,
       },
       {
         id: 9,
         name: "Ice Filtre Coffee ",
-        price: 85,
+        price: 90,
       },
       {
         id: 10,
         name: "Ice Milk Filtre Coffee",
-        price: 90,
+        price: 95,
       },
       {
         id: 11,
         name: "Ice Flat White",
-        price: 80,
+        price: 85,
       },
       {
         id: 12,
@@ -239,12 +239,12 @@ const menu = [
       {
         id: 1,
         name: "Türk Kahvesi",
-        price: 55,
+        price: 60,
       },
       {
         id: 2,
         name: "Sütlü Türk Kahvesi",
-        price: 60,
+        price: 65,
       },
       {
         id: 3,
@@ -275,12 +275,12 @@ const menu = [
       {
         id: 1,
         name: "Çay",
-        price: 20,
+        price: 25,
       },
       {
         id: 2,
         name: "Fincan Çay",
-        price: 35,
+        price: 40,
       },
       {
         id: 3,
@@ -341,52 +341,52 @@ const menu = [
       {
         id: 1,
         name: "Mojito",
-        price: 90,
+        price: 95,
       },
       {
         id: 2,
         name: "Limbery",
-        price: 90,
+        price: 95,
       },
       {
         id: 3,
         name: "Blue Lagoon",
-        price: 90,
+        price: 95,
       },
       {
         id: 4,
         name: "Cool Lime",
-        price: 90,
+        price: 95,
       },
       {
         id: 5,
         name: "Berry Hibiscus",
-        price: 90,
+        price: 95,
       },
       {
         id: 6,
         name: "Strawberry Acal",
-        price: 90,
+        price: 95,
       },
       {
         id: 7,
         name: "Çilekli Mojito",
-        price: 90,
+        price: 95,
       },
       {
         id: 8,
         name: "Rainbow",
-        price: 90,
+        price: 95,
       },
       {
         id: 9,
         name: "Green Apple",
-        price: 90,
+        price: 95,
       },
       {
         id: 10,
         name: "Dream Special",
-        price: 90,
+        price: 95,
       },
     ],
   },
@@ -397,42 +397,42 @@ const menu = [
       {
         id: 1,
         name: "Çikolata Frappe",
-        price: 90,
+        price: 95,
       },
       {
         id: 2,
         name: "Çilek Frappe",
-        price: 90,
+        price: 95,
       },
       {
         id: 3,
         name: "Böğürtlen Frappe",
-        price: 90,
+        price: 95,
       },
       {
         id: 4,
         name: "Vanilya Frappe",
-        price: 90,
+        price: 95,
       },
       {
         id: 5,
         name: "Beyaz Çikolatalı Frappe",
-        price: 90,
+        price: 95,
       },
       {
         id: 6,
         name: "Muz Frappe",
-        price: 90,
+        price: 95,
       },
       {
         id: 7,
         name: "Oreo Frappe",
-        price: 90,
+        price: 95,
       },
       {
         id: 8,
         name: "Lotus Frappe",
-        price: 90,
+        price: 95,
       },
     ],
   },
@@ -443,47 +443,47 @@ const menu = [
       {
         id: 1,
         name: "Çilek Frozen",
-        price: 90,
+        price: 95,
       },
       {
         id: 2,
         name: "Karpuz Frozen",
-        price: 90,
+        price: 95,
       },
       {
         id: 3,
         name: "Karadut Frozen",
-        price: 90,
+        price: 95,
       },
       {
         id: 4,
         name: "Böğürtlen Frozen",
-        price: 90,
+        price: 95,
       },
       {
         id: 5,
         name: "Muz Frozen",
-        price: 90,
+        price: 95,
       },
       {
         id: 6,
         name: "Kavun Frozen",
-        price: 90,
+        price: 95,
       },
       {
         id: 7,
         name: "Şeftali Frozen",
-        price: 90,
+        price: 95,
       },
       {
         id: 8,
         name: "Çarkıfelek Frozen",
-        price: 90,
+        price: 95,
       },
       {
         id: 9,
         name: "Mango Frozen",
-        price: 90,
+        price: 95,
       },
     ],
   },
@@ -494,37 +494,37 @@ const menu = [
       {
         id: 1,
         name: "Çikolata Milkshake",
-        price: 85,
+        price: 90,
       },
       {
         id: 2,
         name: "Beyaz Çikolata Milkshake",
-        price: 85,
+        price: 90,
       },
       {
         id: 3,
         name: "Çilek Milkshake",
-        price: 85,
+        price: 90,
       },
       {
         id: 4,
         name: "Muz Milkshake",
-        price: 85,
+        price: 90,
       },
       {
         id: 5,
         name: "Böğürtlen Milkshake",
-        price: 85,
+        price: 90,
       },
       {
         id: 6,
         name: "Vanilya Milkshake",
-        price: 85,
+        price: 90,
       },
       {
         id: 7,
         name: "Bubble Tea Milkshake",
-        price: 95,
+        price: 100,
       },
     ],
   },
@@ -535,27 +535,27 @@ const menu = [
       {
         id: 1,
         name: "Limonata",
-        price: 60,
+        price: 65,
       },
       {
         id: 2,
         name: "Karpuzlu Limonata",
-        price: 70,
+        price: 75,
       },
       {
         id: 3,
         name: "Çilekli Limonata",
-        price: 70,
+        price: 75,
       },
       {
         id: 4,
         name: "Elmalı Limonata",
-        price: 70,
+        price: 75,
       },
       {
         id: 5,
         name: "Bubble Tea Limonata",
-        price: 80,
+        price: 85,
       },
     ],
   },
@@ -566,7 +566,7 @@ const menu = [
       {
         id: 1,
         name: "Su",
-        price: 15,
+        price: 20,
       },
       {
         id: 2,
@@ -591,22 +591,22 @@ const menu = [
       {
         id: 6,
         name: "Kola",
-        price: 50,
+        price: 60,
       },
       {
         id: 7,
         name: "Fanta",
-        price: 50,
+        price: 60,
       },
       {
         id: 8,
         name: "Sprite",
-        price: 50,
+        price: 60,
       },
       {
         id: 9,
         name: "Fuse Tea",
-        price: 50,
+        price: 60,
       },
       {
         id: 10,
@@ -682,7 +682,7 @@ const menu = [
       {
         id: 13,
         name: "Waffle",
-        price: 130,
+        price: 140,
       },
     ],
   },
